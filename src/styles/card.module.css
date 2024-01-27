@@ -1,0 +1,194 @@
+/* ImageTopContentButtomImage  */
+
+.imageTopContentButtomImage {
+    width: 100%;
+    height: 60vh;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/* ImageTopContentButtomImage */
+
+
+/* ImageLeftContentRightImage */
+.ImageLeftContentRightImage {
+    width: 100%;
+    height: 8rem;
+    border-radius: 6px;
+}
+/* ImageLeftContentRightImage */
+
+
+/* CARD TEXT DIV  */
+
+.cardTextDiv p {
+    margin: 2% 0 0;
+}
+
+.cardTextDiv .cardCategoryText {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.cardTextDiv .cardTitleText {
+    color: var(--foreground);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cardTextDiv .cardAuthorText, .cardTextDiv .cardDateText {
+    color: grey;
+    font-size: .8rem;
+    display: inline-block;
+}
+
+.cardTextDiv .cardAuthorDateDivider {
+    border: 1px solid var(--secondary-color);
+    margin:  0 2%;
+    height: .6rem;
+    display: inline-block;
+}
+
+/* CARD TEXT DIV  */
+
+/* SMALL CARD TEXT DIV  */
+
+.smallCardTextDiv {
+    padding: 0 0 0 6%;
+}
+
+.smallCardTextDiv p {
+    margin: 0;
+}
+
+.smallCardTextDiv .smallCardCategoryText {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.smallCardTextDiv .smallCardTitleText {
+    color: var(--foreground);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 2% 0;
+}
+
+.smallCardTextDiv .smallCardAuthorText, .smallCardTextDiv .smallCardDateText {
+    color: grey;
+    font-size: .8rem;
+    display: inline-block;
+}
+
+.smallCardTextDiv .smallCardAuthorDateDivider {
+    border: 1px solid var(--secondary-color);
+    margin:  0 2%;
+    height: .6rem;
+    display: inline-block;
+}
+
+/* SMALL CARD TEXT DIV  */
+
+/* imageLeftContentRightDiv */
+
+.imageLeftContentRightDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 82%;
+}
+
+.imageLeftContentRightDiv div {
+    flex: 1;
+}
+
+.imageLeftContentRightCardActionArea {
+    padding: 0 0 0 5%;
+    border-radius: 6px;
+}
+
+/* imageLeftContentRightDiv */
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles */
+@media screen and (max-width: 991px) {
+
+/* ImageTopContentButtomImage  */
+.imageTopContentButtomImage {
+    height: 55vh;
+}
+/* ImageTopContentButtomImage */
+
+/* ImageLeftContentRightImage */
+.ImageLeftContentRightImage {
+    height: 7rem;
+}
+/* ImageLeftContentRightImage */
+
+/* imageLeftContentRightDiv */
+.imageLeftContentRightDiv {
+    height: 85%;
+}
+/* imageLeftContentRightDiv */
+
+}
+
+
+
+/* start of medium tablet styles 767 and below*/
+@media screen and (max-width: 767px) {
+
+/* ImageTopContentButtomImage  */
+.imageTopContentButtomImage {
+    height: 40vh;
+}
+/* ImageTopContentButtomImage */
+
+/* ImageLeftContentRightImage */
+.ImageLeftContentRightImage {
+    height: 8rem;
+}
+/* ImageLeftContentRightImage */
+
+/* imageLeftContentRightDiv */
+.imageLeftContentRightDiv {
+    height: 100%;
+}
+/* imageLeftContentRightDiv */
+}
+
+
+
+/* start of phone styles 479 and below */
+@media screen and (max-width: 479px) {
+
+/* ImageLeftContentRightImage */
+.ImageLeftContentRightImage {
+    height: 7rem;
+}
+/* ImageLeftContentRightImage */
+
+/* imageLeftContentRightDiv */
+.imageLeftContentRightDiv div {
+    margin: 2% 0 0;
+}
+
+.imageLeftContentRightCardActionArea {
+    padding: 0;
+}
+/* imageLeftContentRightDiv */
+
+}
+
+
+/* MEDIA QUERY */

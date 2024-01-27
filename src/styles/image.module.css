@@ -1,0 +1,71 @@
+/* Logo Image */
+
+.logoImage {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* Logo Image */
+
+/* FOOTER LOGO IMAGE  */
+
+.footerLogoImage {
+    width: 20%;
+    height: 30%;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* FOOTER LOGO IMAGE  */
+
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles */
+@media screen and (max-width: 991px) {
+
+    /* FOOTER LOGO IMAGE  */
+    .footerLogoImage {
+        width: 25%;
+    }
+    /* FOOTER LOGO IMAGE  */
+
+}
+
+
+
+/* start of medium tablet styles 767 and below*/
+@media screen and (max-width: 767px) {
+
+    /* FOOTER LOGO IMAGE  */
+    .footerLogoImage {
+        width: 20%;
+    }
+    /* FOOTER LOGO IMAGE  */
+
+}
+
+
+
+/* start of phone styles 479 and below */
+/* @media screen and (max-width: 479px) {
+
+} */
+
+
+/* MEDIA QUERY */

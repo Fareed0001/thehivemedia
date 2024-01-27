@@ -1,0 +1,185 @@
+/* FOOTER DIVIDER  */
+
+.footerDivider {
+  border: 1px solid var(--foreground);
+  margin: 3% 0 2%;
+}
+
+/* FOOTER DIVIDER  */
+
+/* Footer TOP CONTAINER */
+
+.footerTopDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerColHeader {
+  font-weight: 600;
+  margin: 16px;
+}
+
+/* Footer TOP CONTAINER */
+
+/* FOOTER FIRST DIV  */
+
+.footerLogoDiv {
+  width: 90%;
+}
+
+/* FOOTER FIRST DIV  */
+
+/* FOOTER SECOND AND THIRD DIV */
+
+.footerLinkDiv a,
+.supportFooterDiv a {
+  color: var(--foreground-color);
+}
+
+.footerLinkDiv a:hover,
+.supportFooterDiv a:hover {
+  color: var(--primary-color);
+}
+
+/* FOOTER SECOND AND THIRD DIV  */
+
+/* FOOTER SOCIAL DIV */
+
+.socialMediaIcon {
+  display: flex;
+  margin: auto 16px;
+  justify-content: space-between;
+}
+
+.socialIcon {
+  font-size: 1.2rem;
+  color: var(--foreground);
+}
+
+.socialIcon:hover {
+  color: var(--primary-color);
+}
+
+.footerSignIn {
+  margin: 16px;
+  background-color: var(--foreground);
+  color: var(--background);
+  width: 90%;
+}
+
+.footerSignIn:hover {
+  background-color: var(--primary-color);
+}
+
+/* FOOTER SOCIAL DIV */
+
+/* FOOTER BOTTOM DIV */
+
+.footerBottomDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FOOTER BOTTOM DIV  */
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles */
+/* @media screen and (max-width: 991px) {
+
+} */
+
+
+
+/* start of medium tablet styles 767 and below*/
+@media screen and (max-width: 767px) {
+/* FOOTER SOCIAL DIV */
+
+.socialMediaDiv {
+  width: 40%;
+  margin: 5% auto 2%;
+}
+
+.socialMediaDiv p {
+  display: none;
+}
+
+.socialMediaIcon {
+  margin: auto;
+}
+
+.footerSignIn {
+  margin: auto;
+  width: 100%;
+}
+
+.socialIcon {
+  font-size: 1.4rem;
+}
+/* FOOTER SOCIAL DIV */
+
+}
+
+
+
+/* start of phone styles 479 and below */
+@media screen and (max-width: 479px) {
+
+  /* FOOTER BOTTOM DIV */
+  .footerBottomDiv {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* FOOTER BOTTOM DIV  */
+
+  /* FOOTER FIRST DIV  */
+
+  .footerLogoDiv {
+    width: 92%;
+    margin: auto;
+  }
+
+  .footerLogoDiv p {
+    text-align: justify;
+  }
+
+  /* FOOTER FIRST DIV  */
+
+  
+/* FOOTER SOCIAL DIV */
+
+.socialMediaDiv {
+  width: 40%;
+  margin: 5% auto 2%;
+}
+
+.socialMediaDiv p {
+  display: none;
+}
+
+.socialMediaIcon {
+  margin: auto;
+}
+
+.footerSignIn {
+  margin: auto;
+  width: 100%;
+}
+
+.socialIcon {
+  font-size: 1.4rem;
+}
+/* FOOTER SOCIAL DIV */
+
+}
+
+
+/* MEDIA QUERY */

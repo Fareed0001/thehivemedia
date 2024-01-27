@@ -1,0 +1,104 @@
+/my-blog
+|-- /components
+|   |-- /auth
+|       |-- SignIn.js (Component for user sign-in)
+|       |-- SignUp.js (Component for user sign-up)
+|   |-- /common
+|       |-- Header.js (Common header component)
+|       |-- Sidebar.js (Common sidebar component)
+|       |-- Footer.js (Common footer component)
+|   |-- /dashboard
+|       |-- index.js (Dashboard main component)
+|       |-- /admin
+|           |-- AdminDashboard.js (Component for admin dashboard)
+|       |-- /user
+|           |-- UserDashboard.js (Component for user dashboard)
+|       |-- /journalist
+|           |-- JournalistDashboard.js (Component for journalist dashboard)
+|   |-- /post
+|       |-- PostList.js (Component to display a list of blog posts)
+|       |-- PostDetail.js (Component for displaying individual blog post details)
+|       |-- PostForm.js (Component for creating/editing blog posts)
+|   |-- /category
+|       |-- CategoryList.js (Component to display a list of categories)
+|       |-- CategoryPage.js (Component for displaying blog posts in a specific category)
+|   |-- ... (other reusable components)
+|
+|-- /pages
+|   |-- index.js (Landing page with all contents)
+|   |-- blog
+|       |-- [slug].js (Individual blog post with dynamic routing based on slug)
+|   |-- category
+|       |-- [category].js (Category page, e.g., news, fashion)
+|   |-- dashboard
+|       |-- index.js (Dashboard main page)
+|       |-- /admin
+|           |-- index.js (Admin dashboard page)
+|       |-- /user
+|           |-- index.js (User dashboard page)
+|       |-- /journalist
+|           |-- index.js (Journalist dashboard page)
+|   |-- auth
+|       |-- sign-in.js (Sign-in page)
+|       |-- sign-up.js (Sign-up page)
+|
+|-- /public
+|   |-- /images
+|       |-- ... (static images)
+|
+|-- /styles
+|   |-- global.css (Global stylesheet)
+|   |-- dashboard.css (Styles for the dashboard)
+|   |-- admin.css (Styles for the admin dashboard)
+|   |-- user.css (Styles for the user dashboard)
+|   |-- journalist.css (Styles for the journalist dashboard)
+|   |-- auth.css (Styles for the authentication pages)
+|   |-- category.css (Styles for the category pages)
+|   |-- ... (other stylesheets)
+|
+|-- /lib
+|   |-- auth.js (Authentication functions)
+|   |-- cms.js (Integration with your CMS)
+|   |-- api.js (Functions for handling API requests, e.g., comments)
+|
+|-- /context
+|   |-- AuthContext.js (Context for user authentication)
+|
+|-- /utils
+|   |-- formatDate.js (Utility function for formatting dates)
+|   |-- ... (other utility functions)
+|
+|-- /api
+|   |-- comments.js (API routes for handling comments)
+|
+|-- next.config.js (Next.js configuration file)
+|-- package.json (Project dependencies and scripts)
+|-- .gitignore (List of files and folders to be ignored by version control)
+|-- README.md (Project documentation)
+
+
+Explanation:
+
+/components: Contains reusable React components organized into folders for authentication, common components, dashboard, posts, categories, etc.
+
+/pages: Represents different pages in your application, organized into folders for the landing page, blog, categories, dashboard, and authentication.
+
+/public: Static assets like images.
+
+/styles: CSS files, including a global stylesheet and stylesheets for specific sections like the dashboard, admin, user, journalist, authentication, and categories.
+
+/lib: Utility functions and modules, including authentication, CMS integration, and API handling.
+
+/context: React context for managing global state, such as user authentication.
+
+/utils: General utility functions.
+
+/api: API routes for handling server-side functionality, such as comments.
+
+next.config.js: Next.js configuration file.
+
+package.json: Project dependencies and scripts.
+
+.gitignore: List of files and folders to be ignored by version control.
+
+README.md: Project documentation.

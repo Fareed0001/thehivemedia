@@ -1,0 +1,60 @@
+:root {
+  /* Your default theme */
+  --primary-color: #3F52E3;
+  --secondary-color: #F12D2D;
+
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme='dark'] {
+  /* darkmode theme */
+  --primary-color: #1E33D1;
+  --secondary-color: #D15454;
+
+  --background: black;
+  --foreground: white;
+}
+
+body {
+  padding: 1% 7%;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles 991 and below*/
+@media screen and (max-width: 991px) {
+  body {
+  padding: 2% 5%;
+  }
+}
+
+
+/* start of medium tablet styles 767 and below*/
+/* @media screen and (max-width: 767px) {
+
+} */
+
+
+/* start of phone styles 479 and below */
+@media screen and (max-width: 479px) {
+  body {
+    padding: 5%;
+    }
+}
+
+
+/* MEDIA QUERY */

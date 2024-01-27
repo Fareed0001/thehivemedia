@@ -1,0 +1,44 @@
+/* HomePageDiv */
+
+.homePageDiv {
+    margin: 5% auto;
+}
+
+/* HomePageDiv */
+
+/* HomePageFirstDiv */
+
+.homePageFirstDivSmallCardDiv > :not(:last-child) {
+    margin-bottom: 16px; 
+}
+
+/* HomePageFirstDiv */
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles */
+/* @media screen and (max-width: 991px) {
+
+} */
+
+
+
+/* start of medium tablet styles 767 and below*/
+/* @media screen and (max-width: 767px) {
+
+} */
+
+
+
+/* start of phone styles 479 and below */
+@media screen and (max-width: 479px) {
+
+}
+
+
+/* MEDIA QUERY */
