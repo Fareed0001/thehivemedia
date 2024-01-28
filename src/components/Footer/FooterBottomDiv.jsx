@@ -10,7 +10,7 @@ function FooterBottomDiv() {
        
         <div className={styles.footerBottomDiv}>
             <p className={styles.copyRight}>COPYRIGHT © 2024 THE HIVE MEDIA. ALL RIGHTS RESERVED.</p>
-            <Button variant="contained" startIcon={<LuLanguages />} size="small" className={styles.sidebarSignIn}>Language</Button>
+            <Button variant="contained" startIcon={<LuLanguages />} size="small" className={styles.translate}>Language</Button>
         </div>
 
     );

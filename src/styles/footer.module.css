@@ -81,6 +81,15 @@
   align-items: center;
 }
 
+.footerBottomDiv .translate {
+  background-color: black;
+  color: white;
+}
+
+
+.footerBottomDiv .translate:hover { 
+  background-color: var(--primary-color);
+}
 /* FOOTER BOTTOM DIV  */
 
 
@@ -130,6 +139,15 @@
 
 /* start of phone styles 479 and below */
 @media screen and (max-width: 479px) {
+/* FOOTER DIVIDER  */
+
+.footerDivider {
+  border: 3px solid var(--foreground);
+  margin: 10% 0;
+  border-radius: 6px;
+}
+
+/* FOOTER DIVIDER  */
 
   /* FOOTER BOTTOM DIV */
   .footerBottomDiv {
@@ -138,6 +156,10 @@
     text-align: center;
   }
 
+  .footerBottomDiv p, .footerBottomDiv .translate {
+    font-size: .9rem;
+    font-weight: 500;
+  }
   /* FOOTER BOTTOM DIV  */
 
   /* FOOTER FIRST DIV  */
@@ -149,11 +171,20 @@
 
   .footerLogoDiv p {
     text-align: justify;
+    font-size: .9rem
+
   }
 
   /* FOOTER FIRST DIV  */
 
-  
+  /* FOOTER SECOND AND THIRD DIV */
+  .footerLinkDiv p,
+  .supportFooterDiv p, .footerLinkDiv a,
+  .supportFooterDiv a {
+  font-size: .8rem
+}
+/* FOOTER SECOND AND THIRD DIV  */
+
 /* FOOTER SOCIAL DIV */
 
 .socialMediaDiv {
@@ -175,7 +206,7 @@
 }
 
 .socialIcon {
-  font-size: 1.4rem;
+  font-size: 1.2srem;
 }
 /* FOOTER SOCIAL DIV */
 
