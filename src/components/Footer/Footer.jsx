@@ -17,7 +17,7 @@ function Footer() {
             <Divider className={styles.footerDivider} />
             <div className={styles.footerTopDiv}>
                 <Grid container>
-                    <Grid item xs={12} sm={4} md={4} lg={3}>
+                    <Grid item xs={12} sm={4} md={4} lg={4}>
                         <FooterFirstDiv />
                     </Grid>
                     <Grid item xs={6} sm={4} md={3} lg={3}>
@@ -26,7 +26,7 @@ function Footer() {
                     <Grid item xs={6} sm={4} md={3} lg={3}>
                         <FooterThirdDiv />
                     </Grid>
-                    <Grid item xs={12} sm={12} md={2} lg={3}>
+                    <Grid item xs={12} sm={12} md={2} lg={2}>
                         <FooterSocialDiv />
                     </Grid>
                 </Grid>
