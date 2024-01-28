@@ -1,6 +1,6 @@
 /* FOOTER DIVIDER  */
 
-.footerDivider {
+.footerContainer .footerDivider {
   border: 1px solid var(--foreground);
   margin: 3% 0 2%;
 }
@@ -60,14 +60,14 @@
   color: var(--primary-color);
 }
 
-.footerSignIn {
+.socialMediaDiv .footerSignIn {
   margin: 16px;
   background-color: var(--foreground);
   color: var(--background);
   width: 90%;
 }
 
-.footerSignIn:hover {
+.socialMediaDiv .footerSignIn:hover {
   background-color: var(--primary-color);
 }
 
@@ -141,8 +141,8 @@
 @media screen and (max-width: 479px) {
 /* FOOTER DIVIDER  */
 
-.footerDivider {
-  border: 3px solid var(--foreground);
+.footerContainer .footerDivider {
+  border: 2px solid var(--foreground);
   margin: 10% 0;
   border-radius: 6px;
 }
