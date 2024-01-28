@@ -188,6 +188,41 @@
 }
 /* imageLeftContentRightDiv */
 
+/* ImageTopContentButtom */
+.imageTopContentButtomDiv {
+    margin: 2% 0 4%;
+}
+/* ImageTopContentButtom */
+
+/* SMALL CARD TEXT DIV  */
+
+.smallCardTextDiv {
+    padding: 0 0 0 5%;
+}
+
+.smallCardTextDiv p {
+    margin: 0;
+}
+
+.smallCardTextDiv .smallCardCategoryText {
+    font-size: .7rem;
+}
+
+.smallCardTextDiv .smallCardTitleText {
+    font-size: .9rem;
+    margin: 2% 0 0;
+}
+
+.smallCardTextDiv .smallCardAuthorText, .smallCardTextDiv .smallCardDateText {
+    font-size: .7rem;
+}
+
+.smallCardTextDiv .smallCardAuthorDateDivider {
+    height: .4rem;
+}
+
+/* SMALL CARD TEXT DIV  */
+
 }
 
 

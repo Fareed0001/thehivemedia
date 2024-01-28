@@ -38,9 +38,17 @@
 
 
 /* start of phone styles 479 and below */
-/* @media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
+    .firstAdvertDiv {
+        padding: 1%;
+        margin: 10% 0;
+    }
+    
+.firstAdvertDiv p {
+    font-size: 1rem;
+}
 
-} */
+}
 
 
 /* MEDIA QUERY */

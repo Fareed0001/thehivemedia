@@ -63,9 +63,18 @@
 
 
 /* start of phone styles 479 and below */
-/* @media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 
-} */
+    /* Logo Image */
+
+.logoImage {
+    width: 30%;
+    height: 30%;
+}
+
+/* Logo Image */
+
+}
 
 
 /* MEDIA QUERY */

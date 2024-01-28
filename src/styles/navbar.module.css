@@ -384,6 +384,10 @@
 @media screen and (max-width: 479px) {
 
 /* Navbar  */
+.inputContainer {
+  margin: 0 2% 0 10%;
+}
+
 .navbarLinkDiv {
   display: none;
 }
