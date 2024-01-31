@@ -1,6 +1,6 @@
-/* ImageTopContentButtomImage  */
+/* ImageTopContentBottomImage  */
 
-.imageTopContentButtomImage {
+.imageTopContentBottomImage {
     width: 100%;
     height: 60vh;
     border-radius: 6px;
@@ -10,16 +10,32 @@
     -o-border-radius: 6px;
 }
 
-/* ImageTopContentButtomImage */
+/* ImageTopContentBottomImage */
 
 
 /* ImageLeftContentRightImage */
-.ImageLeftContentRightImage {
+.imageLeftContentRightImage {
     width: 100%;
     height: 8rem;
     border-radius: 6px;
 }
+
 /* ImageLeftContentRightImage */
+
+
+/* CategoryCardImage  */
+
+.categoryCardImage {
+    width: 100%;
+    height: 60vh;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/* CategoryCardImage */
 
 
 /* CARD TEXT DIV  */
@@ -40,7 +56,8 @@
     font-weight: 500;
 }
 
-.cardTextDiv .cardAuthorText, .cardTextDiv .cardDateText {
+.cardTextDiv .cardAuthorText,
+.cardTextDiv .cardDateText {
     color: grey;
     font-size: .8rem;
     display: inline-block;
@@ -48,7 +65,7 @@
 
 .cardTextDiv .cardAuthorDateDivider {
     border: 1px solid var(--secondary-color);
-    margin:  0 2%;
+    margin: 0 2%;
     height: .6rem;
     display: inline-block;
 }
@@ -78,7 +95,8 @@
     margin: 2% 0;
 }
 
-.smallCardTextDiv .smallCardAuthorText, .smallCardTextDiv .smallCardDateText {
+.smallCardTextDiv .smallCardAuthorText,
+.smallCardTextDiv .smallCardDateText {
     color: grey;
     font-size: .8rem;
     display: inline-block;
@@ -86,7 +104,7 @@
 
 .smallCardTextDiv .smallCardAuthorDateDivider {
     border: 1px solid var(--secondary-color);
-    margin:  0 2%;
+    margin: 0 2%;
     height: .6rem;
     display: inline-block;
 }
@@ -123,23 +141,26 @@
 /* start of large tablet styles */
 @media screen and (max-width: 991px) {
 
-/* ImageTopContentButtomImage  */
-.imageTopContentButtomImage {
-    height: 55vh;
-}
-/* ImageTopContentButtomImage */
+    /* ImageTopContentBottomImage  */
+    .imageTopContentBottomImage {
+        height: 55vh;
+    }
 
-/* ImageLeftContentRightImage */
-.ImageLeftContentRightImage {
-    height: 7rem;
-}
-/* ImageLeftContentRightImage */
+    /* ImageTopContentBottomImage */
 
-/* imageLeftContentRightDiv */
-.imageLeftContentRightDiv {
-    height: 85%;
-}
-/* imageLeftContentRightDiv */
+    /* ImageLeftContentRightImage */
+    .imageLeftContentRightImage {
+        height: 7rem;
+    }
+
+    /* ImageLeftContentRightImage */
+
+    /* imageLeftContentRightDiv */
+    .imageLeftContentRightDiv {
+        height: 85%;
+    }
+
+    /* imageLeftContentRightDiv */
 
 }
 
@@ -148,23 +169,26 @@
 /* start of medium tablet styles 767 and below*/
 @media screen and (max-width: 767px) {
 
-/* ImageTopContentButtomImage  */
-.imageTopContentButtomImage {
-    height: 40vh;
-}
-/* ImageTopContentButtomImage */
+    /* ImageTopContentBottomImage  */
+    .imageTopContentBottomImage {
+        height: 40vh;
+    }
 
-/* ImageLeftContentRightImage */
-.ImageLeftContentRightImage {
-    height: 8rem;
-}
-/* ImageLeftContentRightImage */
+    /* ImageTopContentBottomImage */
 
-/* imageLeftContentRightDiv */
-.imageLeftContentRightDiv {
-    height: 100%;
-}
-/* imageLeftContentRightDiv */
+    /* ImageLeftContentRightImage */
+    .imageLeftContentRightImage {
+        height: 8rem;
+    }
+
+    /* ImageLeftContentRightImage */
+
+    /* imageLeftContentRightDiv */
+    .imageLeftContentRightDiv {
+        height: 100%;
+    }
+
+    /* imageLeftContentRightDiv */
 }
 
 
@@ -172,62 +196,67 @@
 /* start of phone styles 479 and below */
 @media screen and (max-width: 479px) {
 
-    /* ImageTopContentButtomImage  */
-    .imageTopContentButtomImage {
+    /* ImageTopContentBottomImage  */
+    .imageTopContentBottomImage {
         height: 30vh;
     }
-    /* ImageTopContentButtomImage */
 
-/* ImageLeftContentRightImage */
-.ImageLeftContentRightImage {
-    height: 6rem;
-}
-/* ImageLeftContentRightImage */
+    /* ImageTopContentBottomImage */
 
-/* imageLeftContentRightDiv */
-.imageLeftContentRightDiv div {
-    margin: 2% 0 0;
-}
+    /* ImageLeftContentRightImage */
+    .imageLeftContentRightImage {
+        height: 6rem;
+    }
 
-.imageLeftContentRightCardActionArea {
-    padding: 0;
-}
-/* imageLeftContentRightDiv */
+    /* ImageLeftContentRightImage */
 
-/* ImageTopContentButtom */
-.imageTopContentButtomDiv {
-    margin: 2% 0 4%;
-}
-/* ImageTopContentButtom */
+    /* imageLeftContentRightDiv */
+    .imageLeftContentRightDiv div {
+        margin: 2% 0 0;
+    }
 
-/* SMALL CARD TEXT DIV  */
+    .imageLeftContentRightCardActionArea {
+        padding: 0;
+    }
 
-.smallCardTextDiv {
-    padding: 0 0 0 5%;
-}
+    /* imageLeftContentRightDiv */
 
-.smallCardTextDiv p {
-    margin: 0;
-}
+    /* ImageTopContentBottom */
+    .imageTopContentBottomDiv {
+        margin: 2% 0 4%;
+    }
 
-.smallCardTextDiv .smallCardCategoryText {
-    font-size: .7rem;
-}
+    /* ImageTopContentBottom */
 
-.smallCardTextDiv .smallCardTitleText {
-    font-size: .9rem;
-    margin: 2% 0 0;
-}
+    /* SMALL CARD TEXT DIV  */
 
-.smallCardTextDiv .smallCardAuthorText, .smallCardTextDiv .smallCardDateText {
-    font-size: .7rem;
-}
+    .smallCardTextDiv {
+        padding: 0 0 0 5%;
+    }
 
-.smallCardTextDiv .smallCardAuthorDateDivider {
-    height: .4rem;
-}
+    .smallCardTextDiv p {
+        margin: 0;
+    }
 
-/* SMALL CARD TEXT DIV  */
+    .smallCardTextDiv .smallCardCategoryText {
+        font-size: .7rem;
+    }
+
+    .smallCardTextDiv .smallCardTitleText {
+        font-size: .9rem;
+        margin: 2% 0 0;
+    }
+
+    .smallCardTextDiv .smallCardAuthorText,
+    .smallCardTextDiv .smallCardDateText {
+        font-size: .7rem;
+    }
+
+    .smallCardTextDiv .smallCardAuthorDateDivider {
+        height: .4rem;
+    }
+
+    /* SMALL CARD TEXT DIV  */
 
 }
 
