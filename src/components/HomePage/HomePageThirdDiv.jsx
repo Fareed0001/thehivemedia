@@ -7,6 +7,7 @@ function HomePageThirdDiv() {
 
     return (
         <div className={styles.homeThirdDiv}>
+            <p className={styles.homeThirdHeader}>Categories</p>
             <AllCategoriesDiv />
         </div>
     );
