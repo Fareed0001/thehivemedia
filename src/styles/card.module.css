@@ -172,9 +172,15 @@
 /* start of phone styles 479 and below */
 @media screen and (max-width: 479px) {
 
+    /* ImageTopContentButtomImage  */
+    .imageTopContentButtomImage {
+        height: 30vh;
+    }
+    /* ImageTopContentButtomImage */
+
 /* ImageLeftContentRightImage */
 .ImageLeftContentRightImage {
-    height: 7rem;
+    height: 6rem;
 }
 /* ImageLeftContentRightImage */
 

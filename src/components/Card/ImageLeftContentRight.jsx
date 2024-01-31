@@ -15,7 +15,7 @@ function ImageLeftContentRight() {
   const [firstPost, secondPost, thirdPost] = PostData.slice(1, 4);
 
   // Function to generate card link
-  const generateCardLink = (post) => `/${post.category}/${post.id}`;
+  const generateCardLink = (post) => `/${post.category}/${post.title}`;
 
   return (
     <div className={styles.imageLeftContentRightDiv}>

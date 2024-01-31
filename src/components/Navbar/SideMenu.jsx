@@ -14,17 +14,17 @@ import Link from "next/link";
 import { IoEnter } from "react-icons/io5";
 import { MdSportsBasketball } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
-import { RiMovie2Fill } from "react-icons/ri";
-import { SiAlienware } from "react-icons/si";
+import { RiMovie2Line } from "react-icons/ri";
+import { RiAliensLine } from "react-icons/ri";
 import { SiYourtraveldottv } from "react-icons/si";
 import { MdNightlife } from "react-icons/md";
 import { SiDcentertainment } from "react-icons/si";
-import { FaUserSecret } from "react-icons/fa";
-import { FaCircleInfo } from "react-icons/fa6";
-import { RiContactsBookFill } from "react-icons/ri";
-import { RiAdvertisementFill } from "react-icons/ri";
+import { FaPersonCircleQuestion } from "react-icons/fa6";
+import { BsInfoCircle } from "react-icons/bs";
+import { TiContacts } from "react-icons/ti";
+import { RiAdvertisementLine } from "react-icons/ri";
 import { TiWeatherPartlySunny } from "react-icons/ti";
-import { FaPodcast } from "react-icons/fa";
+import { LiaPodcastSolid } from "react-icons/lia";
 import { IoNewspaperOutline } from "react-icons/io5";
 
 
@@ -67,7 +67,7 @@ function Sidebar() {
 
           <div className={styles.mobileSideBar}>          
             <ListItem onClick={handleDrawerClose}>
-                <Link href=""><ListItemText primary={<><FaPodcast /> Podcast</>} /></Link>
+                <Link href=""><ListItemText primary={<><LiaPodcastSolid /> Podcast</>} /></Link>
             </ListItem>        
             <ListItem onClick={handleDrawerClose}>
                 <Link href=""><ListItemText primary={<><IoNewspaperOutline /> News</>} /></Link>
@@ -82,10 +82,10 @@ function Sidebar() {
             <Link href=""><ListItemText primary={<><GrTechnology /> Technology</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><RiMovie2Fill /> Movies</>} /></Link>
+            <Link href=""><ListItemText primary={<><RiMovie2Line /> Movies</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><SiAlienware /> Conspiracy</>} /></Link>
+            <Link href=""><ListItemText primary={<><RiAliensLine /> Conspiracy</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
             <Link href=""><ListItemText primary={<><SiYourtraveldottv /> Travel</>} /></Link>
@@ -97,20 +97,20 @@ function Sidebar() {
             <Link href=""><ListItemText primary={<><SiDcentertainment /> Entertainment</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><FaUserSecret /> Anonymous</>} /></Link>
+            <Link href=""><ListItemText primary={<><FaPersonCircleQuestion /> Anonymous</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
             <Link href=""><ListItemText primary={<><TiWeatherPartlySunny /> Weather</>} /></Link>
           </ListItem>
           <Divider className={styles.sidebarDivider} />
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><FaCircleInfo /> About</>} /></Link>
+            <Link href=""><ListItemText primary={<><BsInfoCircle /> About</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><RiContactsBookFill /> Contacts</>} /></Link>
+            <Link href=""><ListItemText primary={<><TiContacts /> Contacts</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><RiAdvertisementFill /> Adversiment</>} /></Link>
+            <Link href=""><ListItemText primary={<><RiAdvertisementLine /> Adversiment</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
             <Button variant="contained" startIcon={<IoEnter />} size="small" className={styles.sidebarSignIn}>Sign In</Button>
