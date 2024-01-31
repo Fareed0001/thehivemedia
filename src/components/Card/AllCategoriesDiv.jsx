@@ -14,7 +14,7 @@ function AllCategoriesDiv() {
                     <CardActionArea>
                         <ImageTopContentBottomImage
                             altText="Category Image"
-                            // imagePath="./"
+                            imagePath="/images/landingPageImages/anonymous.jpeg"
                         />
                         <CardTextDiv
                             category="Anonymous"
