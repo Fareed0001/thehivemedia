@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Link from "next/link";
 // Icons
 import { IoEnter } from "react-icons/io5";
-import { MdSportsBasketball } from "react-icons/md";
+import { MdOutlineSportsSoccer } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { RiMovie2Line } from "react-icons/ri";
 import { RiAliensLine } from "react-icons/ri";
@@ -76,7 +76,7 @@ function Sidebar() {
           </div>
 
           <ListItem onClick={handleDrawerClose}>
-            <Link href=""><ListItemText primary={<><MdSportsBasketball /> Sport</>} /></Link>
+            <Link href=""><ListItemText primary={<><MdOutlineSportsSoccer /> Sport</>} /></Link>
           </ListItem>
           <ListItem onClick={handleDrawerClose}>
             <Link href=""><ListItemText primary={<><GrTechnology /> Technology</>} /></Link>

@@ -26,6 +26,9 @@
     color: var(--primary-color);
 }
 
+.viewMoreIcon {
+    vertical-align: middle;
+}
 /* HomePageSecondDiv */
 
 
@@ -57,14 +60,8 @@
 /* HomePageSecondDiv */
 
 .homePageSecondDiv .viewMore {
-    color: var(--secondary-color);
     padding: 0;
     margin: 0;
-    display: inline-block;
-}
-
-.homePageSecondDiv .viewMore:hover {
-    color: var(--primary-color);
 }
 
 /* HomePageSecondDiv */
