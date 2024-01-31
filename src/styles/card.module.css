@@ -27,7 +27,7 @@
 
 .categoryCardImage {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -131,6 +131,19 @@
 
 /* imageLeftContentRightDiv */
 
+/* CategoryCard */
+
+.categoryCardDiv {
+    justify-content: space-between;
+}
+
+.categoryCardActionArea {
+    width: 90%;
+    margin: auto auto 10%;
+    border-radius: 6px;
+}
+
+/* CategoryCard */
 
 
 
@@ -142,7 +155,7 @@
 @media screen and (max-width: 991px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage {
+    .imageTopContentBottomImage, .categoryCardImage {
         height: 55vh;
     }
 
@@ -170,8 +183,8 @@
 @media screen and (max-width: 767px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage {
-        height: 40vh;
+    .imageTopContentBottomImage, .categoryCardImage {
+        height: 35vh;
     }
 
     /* ImageTopContentBottomImage */
@@ -197,7 +210,7 @@
 @media screen and (max-width: 479px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage {
+    .imageTopContentBottomImage, .categoryCardImage {
         height: 30vh;
     }
 
@@ -262,6 +275,21 @@
     }
 
     /* SMALL CARD TEXT DIV  */
+
+    
+    /* CategoryCard */
+
+    .categoryCardDiv {
+        justify-content: space-between;
+    }
+
+    .categoryCardActionArea {
+        width: 100%;
+        margin: auto auto 10%;
+        border-radius: 6px;
+    }
+
+    /* CategoryCard */
 
 }
 

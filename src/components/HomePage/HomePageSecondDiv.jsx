@@ -1,15 +1,19 @@
 import React from "react";
 import styles from '@/styles/homepage.module.css';
-import { Grid } from '@mui/material';
 import CategoryCard from "../Card/CategoryCard";
+import Link from 'next/link';
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 
 function HomePageSecondDiv() {
 
     return (
-        <Grid container className={styles.homePageFirstDiv}>
+        <div className={styles.homePageSecondDiv}>
             <CategoryCard />
-        </Grid>
+            <Link href=''>
+                <p className={styles.viewMore}>VIEW MORE LATEST NEWS <FaRegArrowAltCircleRight /></p>
+            </Link>
+        </div>
     );
 
 }
