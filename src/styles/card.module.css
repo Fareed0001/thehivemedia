@@ -285,8 +285,12 @@
 
     .categoryCardActionArea {
         width: 100%;
-        margin: auto auto 10%;
         border-radius: 6px;
+        margin: auto auto 0;
+    }
+
+    .categoryCardCol {
+        margin: auto auto 10%;
     }
 
     /* CategoryCard */
