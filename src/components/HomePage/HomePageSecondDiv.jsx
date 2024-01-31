@@ -8,9 +8,7 @@ function HomePageSecondDiv() {
 
     return (
         <Grid container className={styles.homePageFirstDiv}>
-            <Grid item xs={12} sm={6} md={6} lg={3} className={styles.homePageFirstDivLargeCardDiv}>
-                <CategoryCard />
-            </Grid>
+            <CategoryCard />
         </Grid>
     );
 

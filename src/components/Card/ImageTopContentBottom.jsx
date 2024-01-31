@@ -2,10 +2,10 @@ import React from "react";
 import styles from "@/styles/card.module.css";
 import { CardActionArea } from '@mui/material';
 import { PostData } from "@/Data/Post";
-import { ImageTopContentButtomImage } from "./CardImage";
+import { ImageTopContentBottomImage } from "./CardImage";
 import { CardTextDiv } from "./CardTextDiv";
 
-function ImageTopContentButtom() {
+function ImageTopContentBottom() {
 
   // Check if PostData is defined and not empty
   if (!PostData || PostData.length === 0) {
@@ -19,10 +19,10 @@ function ImageTopContentButtom() {
   const generateCardLink = (post) => `/${post.category}/${post.title}`;
 
   return (
-    <div className={styles.imageTopContentButtomDiv}>
-      <div className={styles.imageTopContentButtomCard}>
+    <div className={styles.imageTopContentBottomDiv}>
+      <div className={styles.imageTopContentBottomCard}>
         <CardActionArea href={generateCardLink(firstPost)}>
-          <ImageTopContentButtomImage
+          <ImageTopContentBottomImage
             altText="Test image"
             imagePath={firstPost.image}
           />
@@ -39,4 +39,4 @@ function ImageTopContentButtom() {
   );
 }
 
-export default ImageTopContentButtom;
+export default ImageTopContentBottom;
