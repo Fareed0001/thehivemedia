@@ -141,6 +141,18 @@ function AllCategoriesDiv() {
                         <p>Weather</p>
                     </CardActionArea>
                 </Grid>
+                <Grid item xs={6} sm={4} md={3} lg={2}>
+                    <CardActionArea className={styles.allCategoriesCardActionArea} href="">
+                        <Image
+                            alt="Category Image"
+                            src="/landingPageImages/music.jpg"
+                            width={300}
+                            height={200}
+                            className={styles.allCategoriesImage}
+                        />
+                        <p>Music</p>
+                    </CardActionArea>
+                </Grid>
             </Grid>
         </div>
     );

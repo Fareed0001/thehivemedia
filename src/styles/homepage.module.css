@@ -33,10 +33,11 @@
 
 /* HomePageThirdDiv */
 
-.homeThirdDiv .homeThirdHeader {
+.homeThirdDiv .homeThirdHeader, .homeForthDiv .homeForthHeader {
     color: var(--secondary-color);
     font-weight: 600;
     font-size: 1.2rem;
+    margin-left: .8%;
 }
 
 /* HomePageThirdDiv */
@@ -83,6 +84,19 @@
 }
 
 /* HomePageSecondDiv */
+
+
+
+
+/* HomePageThirdDiv */
+
+
+.homeThirdDiv .homeThirdHeader {
+    margin-left: 1.5%;
+}
+
+/* HomePageThirdDiv */
+
 
 }
 
