@@ -1,0 +1,31 @@
+.buttonDiv button {
+  width: 100%;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  text-transform: none;
+}
+
+.buttonDiv .enterButton {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+.buttonDiv .enterButton:hover {
+  background-color: #757575;
+  color: var(--foreground);
+}
+
+
+.buttonDiv .buttonIcon {
+  padding: 0 2% 0 0;
+}
+
+
+
+
+  /*background-color: var(--foreground);
+  color: var(--background);
+   */

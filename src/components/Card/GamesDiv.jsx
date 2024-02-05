@@ -11,7 +11,7 @@ function GamesDivDiv() {
         <div className={styles.landingPageGamesDiv}>
             <Grid container>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="/games/Chess">
                         <Image
                             alt="Category Image"
                             src="/landingPageGames/chess.jpg"
@@ -35,7 +35,7 @@ function GamesDivDiv() {
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="/games/Racing">
                         <Image
                             alt="Category Image"
                             src="/landingPageGames/racing.jpg"
@@ -47,7 +47,7 @@ function GamesDivDiv() {
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="/games/SimonGame">
                         <Image
                             alt="Category Image"
                             src="/landingPageGames/simonGame.jpg"

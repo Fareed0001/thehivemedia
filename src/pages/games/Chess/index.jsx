@@ -3,6 +3,9 @@ import React, { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { Chess } from 'chess.js';  // Update the import here
 
+// Import DragDropContext and DragLayer from the new library that supports the latest React version
+// import { DragDropContext, DragLayer } from 'new-drag-drop-library';
+
 const ChessboardWithNoSSR = dynamic(() => import('chessboardjsx'), {
   ssr: false,
 });
@@ -34,6 +37,9 @@ const ChessboardPage = () => {
 
   return (
     <div>
+      {/* Use the new DragDropContext and DragLayer components here */}
+      {/* <DragDropContext> */}
+      {/* <DragLayer> */}
       <ChessboardWithNoSSR position={fen} onDrop={onDrop} />
       <button onClick={onReset}>Reset</button>
     </div>

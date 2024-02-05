@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.5",
     "@mui/material": "^5.15.5",
+    "chess": "^1.2.1",
     "chess.js": "^1.0.0-beta.7",
     "chessboardjsx": "^2.4.7",
     "next": "^13.5.6",

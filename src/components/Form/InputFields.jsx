@@ -1,0 +1,54 @@
+import styles from '@/styles/form.module.css';
+import Checkbox from '@mui/material/Checkbox';
+import Link from "next/link";
+import OutlinedInput from '@mui/material/OutlinedInput';
+
+
+function FirstNameField() {
+    return (
+        <div className={styles.inputFieldDiv}>
+            <label className={styles.label} htmlFor="nameLastField">Name</label>      
+            <OutlinedInput className={styles.inputField} size="small" name="firstLastNameInput" type="text" id="nameLastField" autoFocus required />
+        </div>
+    );
+}
+
+function UserNameField() {
+    return (
+        <div className={styles.inputFieldDiv}>
+            <label className={styles.label} htmlFor="userNameField">Username</label>
+            <OutlinedInput className={styles.inputField} size="small" name="userNameInput" type="text" id="userNameField" required /> 
+        </div>
+    );
+}
+
+function EmailField() {
+    return (
+        <div className={styles.inputFieldDiv}>
+            <label className={styles.label} htmlFor="emailField">Email</label>
+            <OutlinedInput className={styles.inputField} size="small" name="emailInput" type="email" id="emailField" required />
+        </div>
+    );
+}
+
+function PassWordField() {
+    return (
+        <div className={styles.inputFieldDiv}>
+            <label className={styles.label} htmlFor="passwordField">Password</label>
+            <OutlinedInput className={styles.inputField} size="small" type="password" name="passwordInput" id="passwordField" required />  
+        </div>
+    );
+}
+
+function TermsAndConditionField() {
+    return (
+        <div className={styles.inputFieldDiv}>
+            <Checkbox className={styles.checkboxInput} size="small" required />
+            <label className={styles.checkboxLabel}>I agree with <span className={styles.termSpan}>The Hive Media</span>'s <Link href="">terms of service</Link> and <Link href="">privacy policy</Link></label>
+        </div>
+    );
+}
+
+
+
+export { FirstNameField, UserNameField, EmailField, PassWordField, TermsAndConditionField };

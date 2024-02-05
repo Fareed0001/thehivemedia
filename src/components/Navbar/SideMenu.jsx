@@ -112,8 +112,8 @@ function Sidebar() {
           <ListItem onClick={handleDrawerClose}>
             <Link href=""><ListItemText primary={<><RiAdvertisementLine /> Adversiment</>} /></Link>
           </ListItem>
-          <ListItem onClick={handleDrawerClose}>
-            <Button variant="contained" startIcon={<IoEnter />} size="small" className={styles.sidebarSignIn}>Sign In</Button>
+          <ListItem>
+            <Button variant="contained" startIcon={<IoEnter />} size="small" className={styles.sidebarSignIn} href="/auth/SignUp">Sign In</Button>
           </ListItem>
         </List>
       </Drawer>

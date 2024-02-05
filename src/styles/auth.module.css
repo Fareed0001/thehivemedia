@@ -1,0 +1,92 @@
+
+/* SIGN UP SIGN IN  */
+.signUpDiv {
+  width: 40%;
+  margin: 2% auto;
+}
+
+.signUpDiv .signUpHeader {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.signUpForm .buttonDiv button, .buttonDiv .divider {
+  margin: 0 0 2%;
+}
+
+.signUpDiv .signUpGrid {
+  margin: auto auto 2%;
+}
+
+.buttonDiv {
+  margin: 2% auto auto;
+}
+
+.alreadyHaveAccount {
+  font-size: .9rem;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.alreadyHaveAccount a {
+  font-weight: 600;
+  color: var(--foreground);
+  text-decoration: underline;
+}
+
+.forgotPassword a {
+  color: var(--foreground);
+  font-size: .8rem;
+  float: right;
+  padding: 0 1%;
+}
+
+/* SIGN UP SIGN IN  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles 991 and below*/
+@media screen and (max-width: 991px) {
+
+  .signUpDiv {
+    width: 50%;
+  }
+
+}
+
+
+/* start of medium tablet styles 767 and below*/
+/* @media screen and (max-width: 767px) {
+
+} */
+
+
+/* start of phone styles 479 and below */
+@media screen and (max-width: 479px) {
+
+  .signUpDiv {
+   width: 100%;
+   margin: 5% auto;
+  }
+
+  .signUpDiv .signUpHeader {
+    font-size: 1.2rem;
+  }
+
+}
+  
+
+/* MEDIA QUERY */

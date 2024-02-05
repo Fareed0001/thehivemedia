@@ -21,8 +21,8 @@ function FooterSocialDiv() {
             <Link href=""><AiFillInstagram className={styles.socialIcon} /></Link>
             <Link href=""><IoLogoWhatsapp className={styles.socialIcon} /></Link>
         </div>
-        <Button className={styles.footerSignIn} variant="contained" size="small">
-          Sign In
+        <Button className={styles.footerSignIn} variant="contained" size="small" href="/auth/SignUp">
+          Sign Up
         </Button>
     </div>
             

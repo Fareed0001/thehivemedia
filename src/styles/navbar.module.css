@@ -326,7 +326,7 @@
 .sidebarSignIn {
   width: 100%;  
   background-color: black;
-  color: white;
+  color: white !important;
 }
 
 .sidebarSignIn:hover {
