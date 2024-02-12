@@ -1,7 +1,12 @@
+import React, { useState } from 'react';
 import styles from '@/styles/form.module.css';
 import Checkbox from '@mui/material/Checkbox';
 import Link from "next/link";
 import OutlinedInput from '@mui/material/OutlinedInput';
+import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+
 
 
 function FirstNameField() {
@@ -32,13 +37,38 @@ function EmailField() {
 }
 
 function PassWordField() {
+    const [showPassword, setShowPassword] = useState(false);
+
+    const handleTogglePasswordVisibility = () => {
+        setShowPassword((prevShowPassword) => !prevShowPassword);
+    };
+
     return (
         <div className={styles.inputFieldDiv}>
             <label className={styles.label} htmlFor="passwordField">Password</label>
-            <OutlinedInput className={styles.inputField} size="small" type="password" name="passwordInput" id="passwordField" required />  
+            <OutlinedInput
+                className={styles.inputField}
+                size="small"
+                type={showPassword ? 'text' : 'password'}
+                name="passwordInput"
+                id="passwordField"
+                required
+                endAdornment={
+                    <InputAdornment position="end">
+                        <IconButton
+                            aria-label="toggle password visibility"
+                            onClick={handleTogglePasswordVisibility}
+                            edge="end"
+                        >
+                            {showPassword ? <FaEye /> : <FaEyeSlash />}
+                        </IconButton>
+                    </InputAdornment>
+                }
+            />
         </div>
     );
 }
+
 
 function TermsAndConditionField() {
     return (

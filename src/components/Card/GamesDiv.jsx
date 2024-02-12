@@ -26,12 +26,12 @@ function GamesDivDiv() {
                     <CardActionArea className={styles.landingPageGamesCardActionArea} href="">
                         <Image
                             alt="Category Image"
-                            src="/landingPageGames/funfact.jpg"
+                            src="/landingPageGames/ludo.jpg"
                             width={300}
                             height={200}
                             className={styles.landingPageGamesImage}
                         />
-                        <p>Fun Facts</p>
+                        <p>Ludo</p>
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>

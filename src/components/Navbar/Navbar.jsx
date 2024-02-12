@@ -24,7 +24,7 @@ function Navbar() {
       <div className={styles.navbarLinkDiv}>
         <span>Quick Links</span>
       <Divider className={styles.divider} orientation="vertical" flexItem />
-          <Link href="">Home</Link>
+          <Link href="/">Home</Link>
           <Link href="">Podcast</Link>
           <Link href="">Trends</Link>
           <Link href="">News</Link>
