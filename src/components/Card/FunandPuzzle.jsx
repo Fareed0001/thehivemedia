@@ -4,58 +4,58 @@ import styles from "@/styles/card.module.css";
 import Image from 'next/image';
 
 
-function GamesDivDiv() {
+function FunandPuzzle() {
 
     
     return (
         <div className={styles.landingPageGamesDiv}>
             <Grid container>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="/games/Chess">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
                         <Image
                             alt="Category Image"
-                            src="/landingPageGames/chess.jpg"
-                            width={300}
+                            src="/landingPageFunandPuzzleImages/funfacts.jpg"
+                            width={300}  
                             height={200}
                             className={styles.landingPageGamesImage}
                         />
-                        <p>Chess</p>
+                        <p>Fun Facts</p>
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
                         <Image
                             alt="Category Image"
-                            src="/landingPageGames/ludo.jpg"
+                            src="/landingPageFunandPuzzleImages/arcade.jpg"
                             width={300}
                             height={200}
                             className={styles.landingPageGamesImage}
                         />
-                        <p>Ludo</p>
+                        <p>Games</p>
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="/games/Racing">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
                         <Image
                             alt="Category Image"
-                            src="/landingPageGames/racing.jpg"
+                            src="/landingPageFunandPuzzleImages/puzzle.jpg"
                             width={300}
                             height={200}
                             className={styles.landingPageGamesImage}
                         />
-                        <p>Classic Racing</p>
+                        <p>Puzzles</p>
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea} href="/games/SimonGame">
+                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
                         <Image
                             alt="Category Image"
-                            src="/landingPageGames/simonGame.jpg"
+                            src="/landingPageFunandPuzzleImages/quiz.jpg"
                             width={300}
                             height={200}
                             className={styles.landingPageGamesImage}
                         />
-                        <p>Simon Game</p>
+                        <p>Quiz</p>
                     </CardActionArea>
                 </Grid>
             </Grid>
@@ -64,6 +64,6 @@ function GamesDivDiv() {
 
 }
 
-export default GamesDivDiv;
+export default FunandPuzzle;
 
 

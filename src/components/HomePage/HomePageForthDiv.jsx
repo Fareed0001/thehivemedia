@@ -1,13 +1,13 @@
 import React from "react";
 import styles from '@/styles/homepage.module.css';
-import GamesDiv from "../Card/GamesDiv";
+import GamesDiv from "../Card/FunandPuzzle";
 
 
 function HomePageForthDiv() {
 
     return (
         <div className={styles.homeForthDiv}>
-            <p className={styles.homeForthHeader}>Free to play Games</p>
+            <p className={styles.homeForthHeader}>Fun Facts and puzzles</p>
             <GamesDiv />
         </div>
     );

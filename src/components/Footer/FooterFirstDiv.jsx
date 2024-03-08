@@ -2,8 +2,8 @@ import React from "react";
 import { FooterLogoImage } from "../Image/LogoImage";
 import Link from "next/link";
 import styles from '@/styles/footer.module.css';
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
+// import Button from '@mui/material/Button';
+// import Stack from '@mui/material/Stack';
 
 
 function FooterFirstDiv() {
