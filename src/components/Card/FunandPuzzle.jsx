@@ -11,10 +11,10 @@ function FunandPuzzle() {
         <div className={styles.landingPageGamesDiv}>
             <Grid container>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href='/under-development'>
                         <Image
                             alt="Category Image"
-                            src="/landingPageFunandPuzzleImages/funfacts.jpg"
+                            src="/landingPageFunandPuzzleImages/did you know.jpg"
                             width={300}  
                             height={200}
                             className={styles.landingPageGamesImage}
@@ -23,7 +23,7 @@ function FunandPuzzle() {
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href='/under-development'>
                         <Image
                             alt="Category Image"
                             src="/landingPageFunandPuzzleImages/arcade.jpg"
@@ -35,7 +35,7 @@ function FunandPuzzle() {
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href='/under-development'>
                         <Image
                             alt="Category Image"
                             src="/landingPageFunandPuzzleImages/puzzle.jpg"
@@ -47,7 +47,7 @@ function FunandPuzzle() {
                     </CardActionArea>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3} lg={3}>
-                    <CardActionArea className={styles.landingPageGamesCardActionArea}>
+                    <CardActionArea className={styles.landingPageGamesCardActionArea} href='/under-development'>
                         <Image
                             alt="Category Image"
                             src="/landingPageFunandPuzzleImages/quiz.jpg"
@@ -66,4 +66,7 @@ function FunandPuzzle() {
 
 export default FunandPuzzle;
 
+
+
+// oncick of ga,es it should go to a page with animation saying it is under development.
 

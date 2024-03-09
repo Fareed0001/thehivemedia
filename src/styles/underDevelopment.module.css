@@ -1,0 +1,48 @@
+.underDevelopmentDiv {
+    text-align: center;
+}
+
+.underDevelopmentDiv .underDevelopmentHeader {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.underDevelopmentDiv .underDevelopmentGif {
+    width: 40%;
+    height: 40%;
+    border-radius: 12px;
+    margin: auto;
+}
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles 991 and below*/
+@media screen and (max-width: 991px) {    
+    .underDevelopmentDiv .underDevelopmentGif {
+        width: 60%;
+        height: 60%;
+    }    
+  }
+  
+  
+  /* start of medium tablet styles 767 and below*/
+  @media screen and (max-width: 767px) {
+    .underDevelopmentDiv .underDevelopmentGif {
+        width: 70%;
+        height: 70%;
+    } 
+  }
+  
+  
+  /* start of phone styles 479 and below */
+  @media screen and (max-width: 479px) {
+    .underDevelopmentDiv .underDevelopmentGif {
+        width: 100%;
+        height: 100%;
+    } 
+  }
+  
+  
+  /* MEDIA QUERY */
