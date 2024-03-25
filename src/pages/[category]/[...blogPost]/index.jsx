@@ -4,6 +4,7 @@ import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPos
 import { HeroImage } from "@/components/blogPost/blogPostImage";
 import AudioReader from "@/components/blogPost/audioReader";
 import LikeAndShareButton from "@/components/blogPost/likeAndShare";
+import CommentSkeleton from "@/components/blogPost/comment";
 import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
 import Advert from "@/components/Advert/Advert";
@@ -78,6 +79,8 @@ function PostPage() {
       />
 
       <Advert />
+
+      <CommentSkeleton />
 
       {/* more from this author
       similar news 

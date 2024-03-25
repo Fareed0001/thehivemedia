@@ -6,7 +6,6 @@
 .audioAndLikeShare {
     display: flex; /* Use flexbox layout */
     justify-content: space-between; /* Distribute space evenly between elements */
-    margin-top: 20px; /* Adjust margin as needed */
   }
   
   .audioReaderContainer {

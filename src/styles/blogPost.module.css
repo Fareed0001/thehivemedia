@@ -24,6 +24,15 @@
 /* BlogPostHeaderContent */
 
 
+/* blogPostBodyDiv */
+/* blogPostBodyDiv */
+/* blogPostBodyDiv */
+/* blogPostBodyDiv */
+/* blogPostBodyDiv */
+/* blogPostBodyDiv */
+/* blogPostBodyDiv */
+
+
 
 /* BlogPostImageContent */
 /* blogPostHeroImage */
@@ -109,7 +118,6 @@
     .blogPostHeroImage {
         height: 70vh;
     }
-
     /* blogPostHeroImage */
     /* BlogPostImageContent */
 
@@ -134,7 +142,6 @@
     .blogPostHeroImage {
         height: 70vh;
     }
-
     /* blogPostHeroImage */
     /* BlogPostImageContent */
     
@@ -159,6 +166,14 @@
         }    
         /* BlogPostHeaderContent */
 
+        
+        /* blogPostBodyDiv */
+        .postDescription {
+            font-size: .9rem;
+            font-weight: 400;
+        }
+        /* blogPostBodyDiv */
+
         /* BlogPostImageContent */
         /* blogPostHeroImage */
         .blogPostHeroImage {
@@ -173,6 +188,14 @@
             font-size: .8rem;
         }
         /* AUDIO READER */
+
+        /* LIKE AND SHARE */
+        /* LIKE */
+        .likeButton, .likeSkeletonButton, .shareButton {
+            font-size: 1rem;
+        }
+        /* SHARE */
+        /* LIKE AND SHARE */
     }
     
 
