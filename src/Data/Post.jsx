@@ -8,7 +8,6 @@ export const PostData = [
         category: ["Photography"],
         image: "./blogs/c-d-x-PDX_a_82obo-unsplash.jpg",
         author: "Jeanne Ballard",
-        source: "CNN"
     },
     {
         id: "3",

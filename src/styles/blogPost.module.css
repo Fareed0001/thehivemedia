@@ -29,7 +29,7 @@
 /* blogPostHeroImage */
 .blogPostHeroImage {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     border-radius: 12px;
 }
 
@@ -44,10 +44,36 @@
     color: var(--primary-color);
     background-color: #f8f8ff;
     border-radius: 50%;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /* AUDIO READER */
+
+
+/* LIKE AND SHARE */
+/* LIKE */
+.likeButton {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.likeSkeletonButton {
+    color: var(--foreground);
+    font-size: 1.2rem;
+}
+/* LIKE */
+
+/* SHARE */
+.shareButton {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+/* SHARE */
+/* LIKE AND SHARE */
+
+
+
+
 
 
 

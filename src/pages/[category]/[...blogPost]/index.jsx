@@ -3,9 +3,11 @@ import { useRouter } from 'next/router';
 import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPost/blogPostContent";
 import { HeroImage } from "@/components/blogPost/blogPostImage";
 import AudioReader from "@/components/blogPost/audioReader";
+import LikeAndShareButton from "@/components/blogPost/likeAndShare";
 import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
-import Advert from "@/components/Advert/Advert"
+import Advert from "@/components/Advert/Advert";
+
 
 function PostPage() {
   const router = useRouter();
@@ -61,8 +63,14 @@ function PostPage() {
         imagePath={'.' + post.image} // Pass the image path directly
       />
 
-      <AudioReader />
-
+      <div className={styles.audioAndLikeShare}>
+        <div className={styles.audioReaderContainer}>
+          <AudioReader />
+        </div>
+        <div className={styles.likeAndShareContainer}>
+          <LikeAndShareButton />
+        </div>
+      </div>
       <BlogPostBodyContent
         post={{
           postDescription: post.description
@@ -71,8 +79,40 @@ function PostPage() {
 
       <Advert />
 
+      {/* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment *//* more from this author
+      similar news 
+      comment */}
 
-      {/* next add share button *//* next add share button *//* next add share button *//* next add share button *//* next add share button *//* next add share button */}
 
     </div>
   );
