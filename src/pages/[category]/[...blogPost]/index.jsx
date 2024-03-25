@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'; // Import useEffect hook
 import { useRouter } from 'next/router';
 import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPost/blogPostContent";
 import { HeroImage } from "@/components/blogPost/blogPostImage";
+import AudioReader from "@/components/blogPost/audioReader";
 import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
 import Advert from "@/components/Advert/Advert"
@@ -60,6 +61,8 @@ function PostPage() {
         imagePath={'.' + post.image} // Pass the image path directly
       />
 
+      <AudioReader />
+
       <BlogPostBodyContent
         post={{
           postDescription: post.description
@@ -67,6 +70,9 @@ function PostPage() {
       />
 
       <Advert />
+
+
+      {/* next add share button *//* next add share button *//* next add share button *//* next add share button *//* next add share button *//* next add share button */}
 
     </div>
   );
