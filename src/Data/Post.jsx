@@ -26,7 +26,7 @@ export const PostData = [
         description: "Incididunt magna do magna cupidatat ullamco laboris amet. Tempor aute ipsum culpa esse ipsum veniam excepteur duis mollit irure cillum.",
         date: "2022-11-11",
         tags: ["Advantage", "Computer Science", "Tech"],
-        category: ["Computer Science"],
+        category: ["World, Computer Science"],
         image: "./blogs/charlesdeluvio-cZr2sgaxy3Q-unsplash.jpg",
         author: "Emilio Tate"
     },

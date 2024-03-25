@@ -16,7 +16,7 @@ function ImageTopContentBottom() {
   const firstPost = PostData[0];
 
   // Function to generate card link
-  const generateCardLink = (post) => `/${post.category}/${post.title}`;
+  const generateCardLink = (post) => `/${post.category}/${encodeURIComponent(post.title.toLowerCase().replace(/\s+/g, '-'))}`;
 
   return (
     <div className={styles.imageTopContentBottomDiv}>

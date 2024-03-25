@@ -15,8 +15,9 @@ function CategoryCard() {
     const posts = PostData.slice(4, 10);
 
     // Function to generate card link
-    const generateCardLink = (post) => `/${post.category}/${post.title}`;
+    const generateCardLink = (post) => `/${post.category}/${encodeURIComponent(post.title.toLowerCase().replace(/\s+/g, '-'))}`;
 
+    
     return (
         <Grid container className={styles.categoryCardDiv}>
             {posts.map((post, index) => (

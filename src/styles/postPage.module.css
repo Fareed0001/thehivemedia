@@ -1,0 +1,34 @@
+
+.postPageDiv {
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+
+/* MEDIA QUERY  */
+/* start of large tablet styles 991 and below*/
+@media screen and (max-width: 991px) {
+    .postPageDiv {
+        width: 80%;
+    }
+}
+
+
+/* start of medium tablet styles 767 and below*/
+@media screen and (max-width: 767px) {
+    .postPageDiv {
+        width: 90%;
+    }
+}
+
+
+/* start of phone styles 479 and below */
+@media screen and (max-width: 479px) {
+    .postPageDiv {
+        width: 100%;
+    }
+}
+/* MEDIA QUERY */

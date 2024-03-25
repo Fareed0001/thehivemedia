@@ -1,0 +1,146 @@
+/* BlogPostHeaderContent */
+.blogPostHeaderDiv {
+    text-align: center;
+    margin: 5% auto;
+}
+
+.blogPostHeaderDiv p {
+    margin: .5rem;
+}
+
+.postCategory {
+    font-weight: 600;
+}
+
+.postTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.postAuthorName {
+    color: var(--secondary-color);
+}
+
+/* BlogPostHeaderContent */
+
+
+
+
+/* BlogPostImageContent */
+/* blogPostHeroImage */
+.blogPostHeroImage {
+    width: 100%;
+    height: 70vh;
+    border-radius: 12px;
+}
+
+/* blogPostHeroImage */
+
+
+/* BlogPostImageContent */
+
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* start of large tablet styles 991 and below*/
+@media screen and (max-width: 991px) {
+
+    /* BlogPostHeaderContent */
+    .blogPostHeaderDiv {
+        text-align: center;
+        margin: 5% auto 3%;
+    }
+
+    .blogPostHeaderDiv p {
+        margin: .5rem;
+    }
+
+    .postCategory {
+        font-weight: 600;
+    }
+
+    .postTitle {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    /* BlogPostHeaderContent */
+
+    /* BlogPostImageContent */
+    /* blogPostHeroImage */
+    .blogPostHeroImage {
+        height: 70vh;
+    }
+
+    /* blogPostHeroImage */
+    /* BlogPostImageContent */
+
+}
+
+
+/* start of medium tablet styles 767 and below*/
+@media screen and (max-width: 767px) {
+  
+    /* BlogPostHeaderContent */
+    .blogPostHeaderDiv {
+        margin: 5% auto 3%;
+    }
+
+    .postTitle {
+        font-size: 1.3rem;
+    }
+    /* BlogPostHeaderContent */
+
+    /* BlogPostImageContent */
+    /* blogPostHeroImage */
+    .blogPostHeroImage {
+        height: 70vh;
+    }
+
+    /* blogPostHeroImage */
+    /* BlogPostImageContent */
+    
+  }
+
+
+/* start of phone styles 479 and below */
+    @media screen and (max-width: 479px) {
+         /* BlogPostHeaderContent */
+        .blogPostHeaderDiv {
+            margin: 10% auto 5%;
+        }
+
+        .postCategory {
+            font-size: .9rem;
+            font-weight: 500;
+        }
+
+        .postTitle {
+            font-size: 1.2rem;
+        }
+
+        .postAuthor {
+            font-size: .9rem;
+            font-weight: 400;
+        }    
+        /* BlogPostHeaderContent */
+
+        /* BlogPostImageContent */
+        /* blogPostHeroImage */
+        .blogPostHeroImage {
+            height: 40vh;
+        }
+
+        /* blogPostHeroImage */
+        /* BlogPostImageContent */
+    
+    }
+    
+
+/* MEDIA QUERY */

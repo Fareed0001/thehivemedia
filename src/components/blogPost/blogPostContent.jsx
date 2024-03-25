@@ -1,15 +1,22 @@
 import React from 'react';
-// import styles from "@/styles/blogPost.module.css";
+import styles from "@/styles/blogPost.module.css";
 
-
-function BlogPostContent() {
+function BlogPostHeaderContent({ post }) {
     return (
-        //  className={styles.blogPostContentFirstDiv}
-        <div>
-            <p>BlogContent goes here</p>
+        <div className={styles.blogPostHeaderDiv}>
+            <p className={styles.postCategory}>{post.postCategory}</p>
+            <p className={styles.postTitle}>{post.postTitle}</p>
+            <p className={styles.postAuthor}>{post.postAuthor} | {post.postDate}</p>
         </div>
-    )
+    );
 }
 
-export default BlogPostContent;
+function BlogPostBodyContent({ post }) {
+    return (
+        <div className={styles.blogPostBodyDiv}>
+            <p className={styles.postDescription}>{post.postDescription}</p>
+        </div>
+    );
+}
 
+export { BlogPostHeaderContent, BlogPostBodyContent };
