@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'; // Import useEffect hook
 import { useRouter } from 'next/router';
-  import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPost/blogPostContent";
-  import { HeroImage } from "@/components/blogPost/blogPostImage";
-  import styles from '@/styles/postPage.module.css';
+import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPost/blogPostContent";
+import { HeroImage } from "@/components/blogPost/blogPostImage";
+import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
+import Advert from "@/components/Advert/Advert"
 
 function PostPage() {
   const router = useRouter();
@@ -44,7 +45,7 @@ function PostPage() {
 
   return (
     <div className={styles.postPageDiv}>
-      
+
       <BlogPostHeaderContent
         post={{
           postCategory: post.category,
@@ -55,15 +56,17 @@ function PostPage() {
       />
 
       <HeroImage
-        altText = 'Hero Image'
-        imagePath = {'.' + post.image} // Pass the image path directly
+        altText='Hero Image'
+        imagePath={'.' + post.image} // Pass the image path directly
       />
-      
+
       <BlogPostBodyContent
-      post={{
-        postDescription: post.description
-      }}
-/>
+        post={{
+          postDescription: post.description
+        }}
+      />
+
+      <Advert />
 
     </div>
   );

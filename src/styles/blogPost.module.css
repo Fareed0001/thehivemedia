@@ -121,10 +121,6 @@
             font-weight: 500;
         }
 
-        .postTitle {
-            font-size: 1.2rem;
-        }
-
         .postAuthor {
             font-size: .9rem;
             font-weight: 400;
@@ -134,7 +130,7 @@
         /* BlogPostImageContent */
         /* blogPostHeroImage */
         .blogPostHeroImage {
-            height: 40vh;
+            height: 30vh;
         }
 
         /* blogPostHeroImage */

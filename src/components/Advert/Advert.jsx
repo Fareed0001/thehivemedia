@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "@/styles/advert.module.css";
 
 
-function firstAdvert() {
+function Advert() {
     return (
         <div className={styles.firstAdvertDiv}>
             <p>Advert goes here</p>
@@ -10,5 +10,5 @@ function firstAdvert() {
     )
 }
 
-export default firstAdvert;
+export default Advert;
 
