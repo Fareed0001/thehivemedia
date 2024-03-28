@@ -1,12 +1,23 @@
-import React from "react";
+import React from 'react';
+import styles from "@/styles/blogPost.module.css";
+import CategoryCard from "../Card/CategoryCard";
+// import Link from 'next/link';
 import { CardActionArea, Grid } from '@mui/material';
 import { PostData } from "@/Data/Post";
 import { CategoryCardImage } from "../Card/CardImage";
 import { CardTextDiv } from "../Card/CardTextDiv";
-import styles from "@/styles/card.module.css";
 
 
-function CategoryCard() {
+
+function MoreNews() {
+
+
+    // Find the post with similar category in the PostData array
+    const post = PostData.find(post => post.category === blogPostUrl);
+
+
+    console.log('this is the post category from news ' + blogPostUrl);
+
     // Check if PostData is defined and not empty
     if (!PostData || PostData.length === 0) {
         return <p>No posts available</p>;
@@ -44,6 +55,39 @@ function CategoryCard() {
             ))}
         </Grid>
     );
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // return (
+    //     <div className={styles.moreNewsDiv}>
+    //         <p className={styles.moreNewsHeader}>Read more</p>
+    //         <div className={styles.similarNewsDiv}>
+    //             <CategoryCard />
+    //         </div>
+    //     </div>
+    // )
 }
 
-export default CategoryCard;
+function MoreFromAuthor() {
+    return (
+        <div className={styles.moreFromAuthorDiv}>
+            <p className={styles.moreNewsHeader}>More from this author</p>
+            <div className={styles.similarNewsDiv}>
+
+            </div>
+        </div>
+    )
+}
+
+export { MoreNews, MoreFromAuthor };
+

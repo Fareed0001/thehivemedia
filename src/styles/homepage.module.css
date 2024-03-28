@@ -8,8 +8,8 @@
 
 /* HomePageFirstDiv */
 
-.homePageFirstDivSmallCardDiv > :not(:last-child) {
-    margin-bottom: 16px; 
+.homePageFirstDivSmallCardDiv> :not(:last-child) {
+    margin-bottom: 16px;
 }
 
 /* HomePageFirstDiv */
@@ -29,11 +29,13 @@
 .viewMoreIcon {
     vertical-align: middle;
 }
+
 /* HomePageSecondDiv */
 
 /* HomePageThirdDiv */
 
-.homeThirdDiv .homeThirdHeader, .homeForthDiv .homeForthHeader {
+.homeThirdDiv .homeThirdHeader,
+.homeForthDiv .homeForthHeader {
     color: var(--secondary-color);
     font-weight: 600;
     font-size: 1.2rem;
@@ -76,26 +78,26 @@
 
 
 
-/* HomePageSecondDiv */
+    /* HomePageSecondDiv */
 
-.homePageSecondDiv .viewMore {
-    padding: 0;
-    margin: 0;
-}
+    .homePageSecondDiv .viewMore {
+        padding: 0;
+        margin: 0;
+    }
 
-/* HomePageSecondDiv */
-
-
+    /* HomePageSecondDiv */
 
 
-/* HomePageThirdDiv */
 
 
-.homeThirdDiv .homeThirdHeader {
-    margin-left: 1.5%;
-}
+    /* HomePageThirdDiv */
 
-/* HomePageThirdDiv */
+
+    .homeThirdDiv .homeThirdHeader {
+        margin-left: 1.5%;
+    }
+
+    /* HomePageThirdDiv */
 
 
 }

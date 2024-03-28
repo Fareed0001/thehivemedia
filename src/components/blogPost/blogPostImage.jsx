@@ -9,7 +9,7 @@ function HeroImage({ altText, imagePath }) {
             src={imagePath}
             width={600} // Adjust width as per your design
             height={400} // Adjust height as per your design
-            unoptimized 
+            unoptimized
             priority
         />
     );
@@ -23,7 +23,7 @@ function BodyImage({ altText, imagePath }) {
             src={imagePath}
             width={600} // Adjust width as per your design
             height={400} // Adjust height as per your design
-            unoptimized 
+            unoptimized
         />
     );
 }

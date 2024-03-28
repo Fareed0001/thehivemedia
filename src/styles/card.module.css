@@ -168,10 +168,10 @@
     -o-border-radius: 6px;
 }
 
-.allCategoriesDiv p {  
+.allCategoriesDiv p {
     color: var(--foreground);
     font-size: .8rem;
-  }
+}
 
 /* AllCategoriesDiv */
 
@@ -198,10 +198,10 @@
     -o-border-radius: 6px;
 }
 
-.landingPageGamesDiv p {  
+.landingPageGamesDiv p {
     color: var(--foreground);
     font-size: .8rem;
-  }
+}
 
 /* AllCategoriesDiv */
 
@@ -220,7 +220,8 @@
 @media screen and (max-width: 991px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage, .categoryCardImage {
+    .imageTopContentBottomImage,
+    .categoryCardImage {
         height: 55vh;
     }
 
@@ -248,7 +249,8 @@
 @media screen and (max-width: 767px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage, .categoryCardImage {
+    .imageTopContentBottomImage,
+    .categoryCardImage {
         height: 35vh;
     }
 
@@ -275,7 +277,8 @@
 @media screen and (max-width: 479px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage, .categoryCardImage {
+    .imageTopContentBottomImage,
+    .categoryCardImage {
         height: 30vh;
     }
 
@@ -341,7 +344,7 @@
 
     /* SMALL CARD TEXT DIV  */
 
-    
+
     /* CategoryCard */
 
     .categoryCardDiv .categoryCardActionArea {
@@ -351,7 +354,7 @@
     /* CategoryCard */
 
 
-    
+
     /* landingPageGamesDiv */
 
     .landingPageGamesDiv .landingPageGamesCardActionArea {
@@ -361,11 +364,11 @@
     .landingPageGamesDiv .landingPageGamesImage {
         height: 14rem;
     }
-    
-    .landingPageGamesDiv p {  
+
+    .landingPageGamesDiv p {
         font-weight: 500;
         font-size: 1rem;
-      }
+    }
 
     /* landingPageGamesDiv */
 }

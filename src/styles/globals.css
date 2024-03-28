@@ -38,7 +38,7 @@ a {
 /* start of large tablet styles 991 and below*/
 @media screen and (max-width: 991px) {
   body {
-  padding: 2% 5%;
+    padding: 2% 5%;
   }
 }
 
@@ -53,7 +53,7 @@ a {
 @media screen and (max-width: 479px) {
   body {
     padding: 5%;
-    }
+  }
 }
 
 

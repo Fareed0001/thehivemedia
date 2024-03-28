@@ -4,6 +4,7 @@ import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPos
 import { HeroImage } from "@/components/blogPost/blogPostImage";
 import AudioReader from "@/components/blogPost/audioReader";
 import LikeAndShareButton from "@/components/blogPost/likeAndShare";
+// import { MoreNews, MoreFromAuthor } from "@/components/blogPost/moreNews";
 import CommentSkeleton from "@/components/blogPost/comment";
 import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
@@ -82,6 +83,11 @@ function PostPage() {
 
       <CommentSkeleton />
 
+      {/* <MoreNews /> */}
+
+      {/* <MoreFromAuthor /> */}
+
+
       {/* more from this author
       similar news 
       comment *//* more from this author
@@ -117,6 +123,7 @@ function PostPage() {
       comment */}
 
 
+      <Advert />
     </div>
   );
 }

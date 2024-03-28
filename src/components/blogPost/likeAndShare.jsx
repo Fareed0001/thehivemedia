@@ -14,12 +14,12 @@ function LikeAndShareButton() {
 
   return (
     <div className={styles.likeButtonDiv}>
-        <IconButton onClick={handleLikeClick} aria-label="like">
+      <IconButton onClick={handleLikeClick} aria-label="like">
         {liked ? <FavoriteIcon className={styles.likeButton} /> : <FavoriteBorderIcon className={styles.likeSkeletonButton} />}
-        </IconButton>
-        <IconButton>
-          <ShareIcon className={styles.shareButton} />
-        </IconButton>
+      </IconButton>
+      <IconButton>
+        <ShareIcon className={styles.shareButton} />
+      </IconButton>
     </div>
   );
 }

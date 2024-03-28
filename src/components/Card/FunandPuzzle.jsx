@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 function FunandPuzzle() {
 
-    
+
     return (
         <div className={styles.landingPageGamesDiv}>
             <Grid container>
@@ -15,7 +15,7 @@ function FunandPuzzle() {
                         <Image
                             alt="Category Image"
                             src="/landingPageFunandPuzzleImages/did you know.jpg"
-                            width={300}  
+                            width={300}
                             height={200}
                             className={styles.landingPageGamesImage}
                         />

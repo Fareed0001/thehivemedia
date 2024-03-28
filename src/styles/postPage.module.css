@@ -4,21 +4,26 @@
 }
 
 .audioAndLikeShare {
-    display: flex; /* Use flexbox layout */
-    justify-content: space-between; /* Distribute space evenly between elements */
-  }
-  
-  .audioReaderContainer {
-    flex: 1; /* Take up available space */
-  }
-  
-  .likeAndShareContainer {
-    flex: 1; /* Take up available space */
-    text-align: right; /* Align content to the right */
-  }
-  
-  /* Define other styles as needed */
-  
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: space-between;
+    /* Distribute space evenly between elements */
+}
+
+.audioReaderContainer {
+    flex: 1;
+    /* Take up available space */
+}
+
+.likeAndShareContainer {
+    flex: 1;
+    /* Take up available space */
+    text-align: right;
+    /* Align content to the right */
+}
+
+/* Define other styles as needed */
+
 
 
 
@@ -45,4 +50,5 @@
         width: 100%;
     }
 }
+
 /* MEDIA QUERY */

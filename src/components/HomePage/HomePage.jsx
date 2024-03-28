@@ -11,13 +11,13 @@ function HomePage() {
 
     return (
         <div className={styles.homePageDiv}>
-            <HomePageFirstDiv />       
+            <HomePageFirstDiv />
             <Advert />
-            <HomePageSecondDiv />       
+            <HomePageSecondDiv />
             <Advert />
-            <HomePageThirdDiv />       
+            <HomePageThirdDiv />
             <Advert />
-            <HomePageForthDiv />       
+            <HomePageForthDiv />
             <Advert />
         </div>
     );

@@ -21,15 +21,16 @@
 .postAuthorName {
     color: var(--secondary-color);
 }
+
 /* BlogPostHeaderContent */
 
 
+
 /* blogPostBodyDiv */
-/* blogPostBodyDiv */
-/* blogPostBodyDiv */
-/* blogPostBodyDiv */
-/* blogPostBodyDiv */
-/* blogPostBodyDiv */
+.postDescription {
+    text-align: justify;
+}
+
 /* blogPostBodyDiv */
 
 
@@ -70,6 +71,7 @@
     color: var(--foreground);
     font-size: 1.2rem;
 }
+
 /* LIKE */
 
 /* SHARE */
@@ -77,10 +79,20 @@
     font-size: 1.2rem;
     color: var(--primary-color);
 }
+
 /* SHARE */
 /* LIKE AND SHARE */
 
 
+
+/* MORE NEWS */
+
+.moreNewsHeader {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* MORE NEWS  */
 
 
 
@@ -118,6 +130,7 @@
     .blogPostHeroImage {
         height: 70vh;
     }
+
     /* blogPostHeroImage */
     /* BlogPostImageContent */
 
@@ -126,7 +139,7 @@
 
 /* start of medium tablet styles 767 and below*/
 @media screen and (max-width: 767px) {
-  
+
     /* BlogPostHeaderContent */
     .blogPostHeaderDiv {
         margin: 5% auto 3%;
@@ -135,6 +148,7 @@
     .postTitle {
         font-size: 1.3rem;
     }
+
     /* BlogPostHeaderContent */
 
     /* BlogPostImageContent */
@@ -142,61 +156,69 @@
     .blogPostHeroImage {
         height: 70vh;
     }
+
     /* blogPostHeroImage */
     /* BlogPostImageContent */
-    
-  }
+
+}
 
 
 /* start of phone styles 479 and below */
-    @media screen and (max-width: 479px) {
-         /* BlogPostHeaderContent */
-        .blogPostHeaderDiv {
-            margin: 8% auto 5%;
-        }
+@media screen and (max-width: 479px) {
 
-        .postCategory {
-            font-size: .9rem;
-            font-weight: 500;
-        }
-
-        .postAuthor {
-            font-size: .9rem;
-            font-weight: 400;
-        }    
-        /* BlogPostHeaderContent */
-
-        
-        /* blogPostBodyDiv */
-        .postDescription {
-            font-size: .9rem;
-            font-weight: 400;
-        }
-        /* blogPostBodyDiv */
-
-        /* BlogPostImageContent */
-        /* blogPostHeroImage */
-        .blogPostHeroImage {
-            height: 30vh;
-        }
-
-        /* blogPostHeroImage */
-        /* BlogPostImageContent */
-                    
-        /* AUDIO READER */
-        .readNewsText {
-            font-size: .8rem;
-        }
-        /* AUDIO READER */
-
-        /* LIKE AND SHARE */
-        /* LIKE */
-        .likeButton, .likeSkeletonButton, .shareButton {
-            font-size: 1rem;
-        }
-        /* SHARE */
-        /* LIKE AND SHARE */
+    /* BlogPostHeaderContent */
+    .blogPostHeaderDiv {
+        margin: 8% auto 5%;
     }
-    
+
+    .postCategory {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .postAuthor {
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    /* BlogPostHeaderContent */
+
+
+    /* blogPostBodyDiv */
+    .postDescription {
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    /* blogPostBodyDiv */
+
+    /* BlogPostImageContent */
+    /* blogPostHeroImage */
+    .blogPostHeroImage {
+        height: 30vh;
+    }
+
+    /* blogPostHeroImage */
+    /* BlogPostImageContent */
+
+    /* AUDIO READER */
+    .readNewsText {
+        font-size: .8rem;
+    }
+
+    /* AUDIO READER */
+
+    /* LIKE AND SHARE */
+    /* LIKE */
+    .likeButton,
+    .likeSkeletonButton,
+    .shareButton {
+        font-size: 1rem;
+    }
+
+    /* SHARE */
+    /* LIKE AND SHARE */
+}
+
 
 /* MEDIA QUERY */

@@ -43,6 +43,7 @@
     .footerLogoImage {
         width: 25%;
     }
+
     /* FOOTER LOGO IMAGE  */
 
 }
@@ -56,6 +57,7 @@
     .footerLogoImage {
         width: 20%;
     }
+
     /* FOOTER LOGO IMAGE  */
 
 }
@@ -67,12 +69,12 @@
 
     /* Logo Image */
 
-.logoImage {
-    width: 30%;
-    height: 30%;
-}
+    .logoImage {
+        width: 30%;
+        height: 30%;
+    }
 
-/* Logo Image */
+    /* Logo Image */
 
 }
 

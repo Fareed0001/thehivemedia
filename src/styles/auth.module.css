@@ -1,4 +1,3 @@
-
 /* SIGN UP SIGN IN  */
 .signUpDiv {
   width: 40%;
@@ -10,7 +9,8 @@
   font-size: 1.4rem;
 }
 
-.signUpForm .buttonDiv button, .buttonDiv .divider {
+.signUpForm .buttonDiv button,
+.buttonDiv .divider {
   margin: 0 0 2%;
 }
 
@@ -78,8 +78,8 @@
 @media screen and (max-width: 479px) {
 
   .signUpDiv {
-   width: 100%;
-   margin: 5% auto;
+    width: 100%;
+    margin: 5% auto;
   }
 
   .signUpDiv .signUpHeader {
@@ -87,6 +87,6 @@
   }
 
 }
-  
+
 
 /* MEDIA QUERY */

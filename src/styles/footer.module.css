@@ -91,6 +91,7 @@
   background-color: var(--background);
   color: var(--foreground);
 }
+
 /* FOOTER BOTTOM DIV  */
 
 
@@ -109,30 +110,31 @@
 
 /* start of medium tablet styles 767 and below*/
 @media screen and (max-width: 767px) {
-/* FOOTER SOCIAL DIV */
+  /* FOOTER SOCIAL DIV */
 
-.socialMediaDiv {
-  width: 40%;
-  margin: 5% auto 2%;
-}
+  .socialMediaDiv {
+    width: 40%;
+    margin: 5% auto 2%;
+  }
 
-.socialMediaDiv p {
-  display: none;
-}
+  .socialMediaDiv p {
+    display: none;
+  }
 
-.socialMediaIcon {
-  margin: auto;
-}
+  .socialMediaIcon {
+    margin: auto;
+  }
 
-.footerSignIn {
-  margin: auto;
-  width: 100%;
-}
+  .footerSignIn {
+    margin: auto;
+    width: 100%;
+  }
 
-.socialIcon {
-  font-size: 1.4rem;
-}
-/* FOOTER SOCIAL DIV */
+  .socialIcon {
+    font-size: 1.4rem;
+  }
+
+  /* FOOTER SOCIAL DIV */
 
 }
 
@@ -140,15 +142,15 @@
 
 /* start of phone styles 479 and below */
 @media screen and (max-width: 479px) {
-/* FOOTER DIVIDER  */
+  /* FOOTER DIVIDER  */
 
-.footerContainer .footerDivider {
-  border: 2px solid var(--foreground);
-  margin: 10% 0;
-  border-radius: 6px;
-}
+  .footerContainer .footerDivider {
+    border: 2px solid var(--foreground);
+    margin: 10% 0;
+    border-radius: 6px;
+  }
 
-/* FOOTER DIVIDER  */
+  /* FOOTER DIVIDER  */
 
   /* FOOTER BOTTOM DIV */
   .footerBottomDiv {
@@ -157,10 +159,12 @@
     text-align: center;
   }
 
-  .footerBottomDiv p, .footerBottomDiv .translate {
+  .footerBottomDiv p,
+  .footerBottomDiv .translate {
     font-size: .9rem;
     font-weight: 500;
   }
+
   /* FOOTER BOTTOM DIV  */
 
   /* FOOTER FIRST DIV  */
@@ -173,50 +177,52 @@
   .footerLogoDiv p {
     text-align: justify;
     font-size: .9rem
-
   }
 
   /* FOOTER FIRST DIV  */
 
   /* FOOTER SECOND AND THIRD DIV */
   .footerLinkDiv p,
-  .supportFooterDiv p, .footerLinkDiv a,
+  .supportFooterDiv p,
+  .footerLinkDiv a,
   .supportFooterDiv a {
-  font-size: .8rem
-}
-/* FOOTER SECOND AND THIRD DIV  */
+    font-size: .8rem
+  }
 
-/* FOOTER SOCIAL DIV */
+  /* FOOTER SECOND AND THIRD DIV  */
 
-.socialMediaDiv {
-  width: 40%;
-  margin: 5% auto 2%;
-}
+  /* FOOTER SOCIAL DIV */
 
-.socialMediaDiv p {
-  display: none;
-}
+  .socialMediaDiv {
+    width: 40%;
+    margin: 5% auto 2%;
+  }
 
-.socialMediaIcon {
-  margin: auto;
-}
+  .socialMediaDiv p {
+    display: none;
+  }
 
-.socialMediaDiv .footerSignIn {
-  margin: 0;
-  background-color: var(--foreground);
-  color: var(--background);
-  width: 100%;
-}
+  .socialMediaIcon {
+    margin: auto;
+  }
 
-.socialMediaDiv .footerSignIn:hover {
-  background-color: var(--background);
-  color: var(--foreground);
-}
+  .socialMediaDiv .footerSignIn {
+    margin: 0;
+    background-color: var(--foreground);
+    color: var(--background);
+    width: 100%;
+  }
 
-.socialIcon {
-  font-size: 1.2rem;
-}
-/* FOOTER SOCIAL DIV */
+  .socialMediaDiv .footerSignIn:hover {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  .socialIcon {
+    font-size: 1.2rem;
+  }
+
+  /* FOOTER SOCIAL DIV */
 
 }
 

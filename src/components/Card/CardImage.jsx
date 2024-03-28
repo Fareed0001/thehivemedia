@@ -9,7 +9,7 @@ function ImageTopContentBottomImage({ altText, imagePath }) {
             src={imagePath}
             width={100}
             height={100}
-            unoptimized 
+            unoptimized
             priority
         />
     );
@@ -23,7 +23,7 @@ function ImageLeftContentRightImage({ altText, imagePath }) {
             src={imagePath}
             width={100}
             height={100}
-            unoptimized 
+            unoptimized
         />
     );
 }
@@ -36,7 +36,7 @@ function CategoryCardImage({ altText, imagePath }) {
             src={imagePath}
             width={100}
             height={100}
-            unoptimized 
+            unoptimized
         />
     );
 }
