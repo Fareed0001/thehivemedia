@@ -91,7 +91,12 @@ function PostPage() {
         }}
       />
 
-      <MoreNews />
+      <MoreNews 
+        post={{
+          category: category, 
+          blogPost: blogPost 
+        }}
+      />
 
       <Advert />
     </div>

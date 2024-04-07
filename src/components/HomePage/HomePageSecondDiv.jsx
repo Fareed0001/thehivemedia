@@ -11,7 +11,7 @@ function HomePageSecondDiv() {
         <div className={styles.homePageSecondDiv}>
             <CategoryCard />
             <Link href=''>
-                <p className={styles.viewMore}>VIEW MORE LATEST NEWS <FaRegArrowAltCircleRight  className={styles.viewMoreIcon}/></p>
+                <p className={styles.viewMore}>View more news content <FaRegArrowAltCircleRight  className={styles.viewMoreIcon}/></p>
             </Link>
         </div>
     );

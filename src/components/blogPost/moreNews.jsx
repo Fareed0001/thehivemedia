@@ -1,5 +1,4 @@
 import React from 'react';
-import { useRouter } from 'next/router';
 import styles from "@/styles/blogPost.module.css";
 import { PostData } from "@/Data/Post";
 // card
@@ -11,12 +10,10 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
 
-function MoreNews() {
-   
-    const router = useRouter();
+function MoreNews({post}) {
 
-    // category represents the url category and the blogPost represent the url blogPost title
-    const { category, blogPost } = router.query;
+    // getting the post category and blogPost from the prop passed from the post
+    const { category, blogPost } = post;
 
     // checks if category is null or hasn't been provided or fetched yet.
     if (!category) {
@@ -109,7 +106,6 @@ function MoreFromAuthor({ post }) {
             authorPostTitleLower !== postTitleLower
         );
     });
-    
     // console.log('post author: ', post.postAuthor);
     // console.log('authorPost all: ', authorPosts);
 

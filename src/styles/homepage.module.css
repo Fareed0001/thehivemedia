@@ -12,6 +12,12 @@
     margin-bottom: 16px;
 }
 
+.homePageFirstDiv .viewMore {
+    color: var(--secondary-color);
+    display: inline-block;
+    margin: 20% 0 0;
+}
+
 /* HomePageFirstDiv */
 
 /* HomePageSecondDiv */
@@ -22,7 +28,7 @@
     display: inline-block;
 }
 
-.homePageSecondDiv .viewMore:hover {
+.homePageFirstDiv .viewMore:hover, .homePageSecondDiv .viewMore:hover {
     color: var(--primary-color);
 }
 
@@ -75,8 +81,6 @@
 
 /* start of phone styles 479 and below */
 @media screen and (max-width: 479px) {
-
-
 
     /* HomePageSecondDiv */
 

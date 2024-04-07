@@ -231,7 +231,7 @@
 /* MEDIA QUERY  */
 
 
-/* start of large tablet styles */
+/* start of large tablet styles and below */
 @media screen and (max-width: 991px) {
 
     /* ImageTopContentBottomImage  */
@@ -241,6 +241,14 @@
     }
 
     /* ImageTopContentBottomImage */
+
+    
+    /* MoreNewsImage */
+    .moreNewsImage {
+        height: 40vh;
+    }
+    /* MoreNewsImage */
+
 
     /* ImageLeftContentRightImage */
     .imageLeftContentRightImage {
@@ -271,6 +279,13 @@
 
     /* ImageTopContentBottomImage */
 
+        
+    /* MoreNewsImage */
+    .moreNewsImage {
+        height: 32vh;
+    }
+    /* MoreNewsImage */
+
     /* ImageLeftContentRightImage */
     .imageLeftContentRightImage {
         height: 8rem;
@@ -294,10 +309,17 @@
     /* ImageTopContentBottomImage  */
     .imageTopContentBottomImage,
     .categoryCardImage {
-        height: 30vh;
+        height: 40vh;
     }
 
     /* ImageTopContentBottomImage */
+
+        
+    /* MoreNewsImage */
+    .moreNewsImage {
+        height: 35vh;
+    }
+    /* MoreNewsImage */
 
     /* ImageLeftContentRightImage */
     .imageLeftContentRightImage {
