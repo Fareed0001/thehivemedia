@@ -4,7 +4,7 @@ import { BlogPostHeaderContent, BlogPostBodyContent } from "@/components/blogPos
 import { HeroImage } from "@/components/blogPost/blogPostImage";
 import AudioReader from "@/components/blogPost/audioReader";
 import LikeAndShareButton from "@/components/blogPost/likeAndShare";
-// import { MoreNews, MoreFromAuthor } from "@/components/blogPost/moreNews";
+import { MoreNews, MoreFromAuthor } from "@/components/blogPost/moreNews";
 import CommentSkeleton from "@/components/blogPost/comment";
 import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
@@ -41,12 +41,13 @@ function PostPage() {
     return null;
   }
 
-  console.log('this is the blogpost ' + blogPost);
-  console.log('this is the category ' + category);
-  console.log('this is the blogPostUrl ' + blogPostUrl);
-  console.log('this is the image ' + post.image);
-  console.log('this is the post ' + JSON.stringify(post)); // Use JSON.stringify to log the object
-  console.log('this is the post category ' + JSON.stringify(post.category)); // Use JSON.stringify to log the object
+  // console.log('this is the blogpost ' + blogPost);
+  // console.log('this is the category ' + category);
+  // console.log('this is the blogPostUrl ' + blogPostUrl);
+  // console.log('this is the image ' + post.image);
+  // console.log('this is the author ' + post.author);
+  // console.log('this is the post ' + JSON.stringify(post)); // Use JSON.stringify to log the object
+  // console.log('this is the post category ' + JSON.stringify(post.category)); // Use JSON.stringify to log the object
 
   return (
     <div className={styles.postPageDiv}>
@@ -83,45 +84,14 @@ function PostPage() {
 
       <CommentSkeleton />
 
-      {/* <MoreNews /> */}
+      <MoreFromAuthor 
+         post={{
+          postTitle: post.title,
+          postAuthor: post.author
+        }}
+      />
 
-      {/* <MoreFromAuthor /> */}
-
-
-      {/* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment *//* more from this author
-      similar news 
-      comment */}
-
+      <MoreNews />
 
       <Advert />
     </div>

@@ -41,4 +41,17 @@ function CategoryCardImage({ altText, imagePath }) {
     );
 }
 
-export { ImageTopContentBottomImage, ImageLeftContentRightImage, CategoryCardImage };
+function MoreNewsImage({ altText, imagePath }) {
+    return (
+        <Image
+            className={styles.moreNewsImage}
+            alt={altText}
+            src={imagePath}
+            width={100}
+            height={100}
+            unoptimized
+        />
+    );
+}
+
+export { ImageTopContentBottomImage, ImageLeftContentRightImage, CategoryCardImage, MoreNewsImage };
