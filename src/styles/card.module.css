@@ -307,8 +307,7 @@
 @media screen and (max-width: 479px) {
 
     /* ImageTopContentBottomImage  */
-    .imageTopContentBottomImage,
-    .categoryCardImage {
+    .imageTopContentBottomImage {
         height: 40vh;
     }
 
@@ -327,6 +326,12 @@
     }
 
     /* ImageLeftContentRightImage */
+
+    .categoryCardImage {
+        height: 35vh;
+    }
+    
+    /* CategoryCardImage */
 
     /* imageLeftContentRightDiv */
 
