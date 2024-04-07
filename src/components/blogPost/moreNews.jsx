@@ -74,7 +74,7 @@ function MoreNews({post}) {
                                     imagePath={'.' + newsPost.image}
                                 />
                                 <CardTextDiv
-                                    carousel={newsPost.carousel}
+                                    category={newsPost.category}
                                     title={newsPost.title}
                                     author={newsPost.author}
                                     date={newsPost.date}
@@ -147,7 +147,7 @@ function MoreFromAuthor({ post }) {
                                     imagePath={'.' + authorPost.image}
                                 />
                                 <CardTextDiv
-                                    carousel={authorPost.carousel}
+                                    category={authorPost.category}
                                     title={authorPost.title}
                                     author={authorPost.author}
                                     date={authorPost.date}

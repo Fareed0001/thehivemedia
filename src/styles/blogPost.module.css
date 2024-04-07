@@ -87,8 +87,13 @@
 
 /* MORE NEWS */
 
+.moreNewsDiv {
+    margin: 5% auto;
+}
+
 .moreNewsHeader {
     color: var(--secondary-color);
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
