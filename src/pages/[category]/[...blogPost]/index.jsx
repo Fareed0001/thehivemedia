@@ -41,6 +41,13 @@ function PostPage() {
     return null;
   }
 
+  // Update metadata dynamically for seo
+  // useEffect(() => {
+  //   if (post) {
+  //     generateMetaData(post);
+  //   }
+  // }, [blogPostUrl]);
+
   // console.log('this is the blogpost ' + blogPost);
   // console.log('this is the category ' + category);
   // console.log('this is the blogPostUrl ' + blogPostUrl);
@@ -71,7 +78,11 @@ function PostPage() {
           <AudioReader />
         </div>
         <div className={styles.likeAndShareContainer}>
-          <LikeAndShareButton />
+        <LikeAndShareButton 
+          postTitle={`${category}/${blogPost}`}
+          postHeader={post.title}
+          // this makes the value of postTitle the category then the title
+        />
         </div>
       </div>
       <BlogPostBodyContent
@@ -102,5 +113,13 @@ function PostPage() {
     </div>
   );
 }
+
+// Function to generate metadata
+// export async function generateMetaData(post) {
+//   return {
+//     title: post.title + " | The Hive Media",
+//     description: post.description,
+//   }
+// }
 
 export default PostPage;
