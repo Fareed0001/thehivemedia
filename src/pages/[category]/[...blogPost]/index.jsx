@@ -9,6 +9,7 @@ import CommentSkeleton from "@/components/blogPost/comment";
 import styles from '@/styles/postPage.module.css';
 import { PostData } from "@/Data/Post";
 import Advert from "@/components/Advert/Advert";
+import Head from 'next/head'; // Import Head component for dynamic metadata
 
 
 function PostPage() {
@@ -58,6 +59,12 @@ function PostPage() {
 
   return (
     <div className={styles.postPageDiv}>
+
+      <Head>
+        {/* Dynamically update page title and description */}
+        <title>{post.title + " | The Hive Media"}</title>
+        <meta name="description" content={post.description} />
+      </Head>
 
       <BlogPostHeaderContent
         post={{

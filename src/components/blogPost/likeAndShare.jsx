@@ -19,6 +19,33 @@ import {
 } from 'next-share'
 
 
+
+
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+// check how zikoko and tech cabal did their seo
+
+
+
+
+
 // passed in postTitle prop to get the link properly
 function LikeAndShareButton({ postTitle, postHeader }) {
   const [liked, setLiked] = useState(false);
