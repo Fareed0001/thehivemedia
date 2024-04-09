@@ -43,11 +43,25 @@ function PostPage() {
   }
 
   // Update metadata dynamically for seo
-  // useEffect(() => {
-  //   if (post) {
-  //     generateMetaData(post);
-  //   }
-  // }, [blogPostUrl]);
+  useEffect(() => {
+    if (post) {
+      generateMetaData(post);
+    }
+  }, [blogPostUrl]);
+
+    // Function to generate metadata
+    async function generateMetaData(post) {
+      const metaData = await {
+        title: post.title + " | The Hive Media",
+        description: post.description,
+      }
+      // Dynamically update page title and description
+      document.title = metaData.title;
+      const metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', metaData.description);
+      }
+    }
 
   // console.log('this is the blogpost ' + blogPost);
   // console.log('this is the category ' + category);
